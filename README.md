@@ -22,6 +22,12 @@ To install the extension, execute:
 pip install md_html_preview
 ```
 
+After installation, open any Markdown file in the JupyterLab file browser. Click
+the **Render Markdown to HTML** button in the toolbar to convert the file. The
+generated HTML document will be opened automatically. You can specify a default
+CSS file in the extension settings. If no CSS is configured, a `style.css` file
+located next to the Markdown document will be used if present.
+
 ## Uninstall
 
 To remove the extension, execute:
