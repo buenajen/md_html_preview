@@ -1,0 +1,13 @@
+{
+  "name": "md_html_preview",
+  "version": "0.1.0",
+  "description": "Render markdown files to HTML",
+  "type": "module",
+  "main": "./static/index.js",
+  "exports": "./static/index.js",
+  "style": "./static/style.js",
+  "jupyterlab": {
+    "extension": true,
+    "schemaDir": "../schema"
+  }
+}
