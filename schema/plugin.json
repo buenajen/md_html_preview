@@ -1,0 +1,15 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "md_html_preview",
+  "description": "md_html_preview settings.",
+  "type": "object",
+  "properties": {
+    "defaultCSS": {
+      "title": "Default CSS file",
+      "type": "string",
+      "description": "Path to CSS applied when converting"
+    }
+  },
+  "additionalProperties": false,
+  "jupyter.lab.setting-icon": "ui-components:text-editor",
+}
